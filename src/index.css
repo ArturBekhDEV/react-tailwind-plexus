@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-blue: #5297f0;
+  --primary-purple: #178eb5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blue {
+  color: var(--primary-blue);
+}
+
+@layer base {
+  * {
+    @apply font-[Kanit];
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  a {
+    /* @apply hover:bg-sky-700; */
+  }
+  li {
+    @apply px-4 py-4 hover:bg-sky-700;
+  }
+  button {
+    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-2 px-10;
+  }
 }
