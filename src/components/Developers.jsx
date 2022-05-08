@@ -17,7 +17,7 @@ const Developers = () => {
         </div>
         <div className="flex justify-center w-full py-16">
           <img
-            class="max-w-[350px] shadow-lg shadow-cyan-500/70"
+            class="max-w-[350px] shadow-lg shadow-cyan-500/70 sd: ml-8"
             src={terminal}
             alt="#"
           />

@@ -1,5 +1,5 @@
 import React from "react";
-import plexusVideo from "../assets/video.mp4";
+import plexusVideo from "../assets/video_3.mp4";
 
 const Hero = () => {
   return (
