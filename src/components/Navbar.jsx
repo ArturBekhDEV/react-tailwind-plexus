@@ -28,7 +28,7 @@ const Navbar = () => {
             <li>
               <a href="#">Contact</a>
             </li>
-            <button className="ml-4">Create</button>
+            <button className="ml-4 bg-sky-800">Create</button>
           </ul>
         </div>
         <div onClick={handleFunction} className="block md:hidden">

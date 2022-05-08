@@ -20,8 +20,8 @@ const Hero = () => {
           Garanteed trading for millions users and top Ethereum applications.
         </p>
         <div>
-          <button className="m-2">View More</button>
-          <button className="m-2">Contact us</button>
+          <button className="m-2 bg-sky-800">View More</button>
+          <button className="m-2 bg-sky-800">Contact us</button>
         </div>
         <div>
           <p className="text-white text-center m-10 font-bold">
